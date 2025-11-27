@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Chef in Tokyo – Federico</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 3px 15px rgba(0,0,0,0.7);
+    }
+    header h1 {
+      font-size: 3.2rem;
+      margin: 0;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .intro {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    .services h2, .about h2, .contact h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .service-box {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      width: 260px;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background: white;
+    }
+    .card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+    }
+    .card h3 {
+      padding: 15px;
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .card p {
+      padding: 0 15px 15px 15px;
+      margin: 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      padding: 14px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Private Chef in Tokyo</h1>
+  </header>
+
+  <section class="intro">
+    <p>Esperienza gastronomica privata e su misura direttamente a casa tua, nel cuore di Tokyo.</p>
+  </section>
+
+  <section class="services">
+    <h2>Servizi</h2>
+    <div class="service-box">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1543353071-087092ec393f" />
+        <h3>Private Dining</h3>
+        <p>Menù personalizzati ispirati alla cucina italiana e giapponese.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1534938665420-4193effeaccf" />
+        <h3>Eventi Privati</h3>
+        <p>Dalla cena romantica al compleanno esclusivo.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543" />
+        <h3>Cooking Class</h3>
+        <p>Lezioni private per scoprire tecniche e ricette autentiche.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Chi Sono</h2>
+    <p>Chef italiano con esperienza internazionale, specializzato in cucina mediterranea e fusion nipponica. Offro un servizio elegante, professionale e completamente personalizzabile per creare esperienze culinarie uniche a Tokyo.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contatti</h2>
+    <form>
+      <input type="text" placeholder="Nome" />
+      <input type="email" placeholder="Email" />
+      <textarea rows="5" placeholder="Richiesta"></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Private Chef in Tokyo – Tutti i diritti riservati
+  </footer>
+</body>
+</html>
